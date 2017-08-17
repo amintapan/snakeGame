@@ -228,7 +228,6 @@ void* goRight(void* parameter)  //this THREAD is for moving snake
             //If egg is not eaten
             if(front!=-1) //If there is a corner
             {
-
                 int lastCorner=queue[front];
                 int lastCornerX=lastCorner%1080;
                 int lastCornerY=lastCorner/1080;
